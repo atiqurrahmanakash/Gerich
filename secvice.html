@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <img  class="absolute top-[990px] right-[-61px] z-[1]" src="./img/line7.png" alt="">
+    <!-- ==========================================Navbar Section==============================    -->
+    <nav class="relative w-full bg-[#0C0C0C] z-[999] py-8">
+        <div class="max-w-[1680px] mx-auto">
+            <div class="flex justify-between items-center relative">
+                <div class="logo cursor-pointer">
+                    <a href="#">
+                        <img src="./img/logo1.png" alt="">
+                    </a>
+                </div>
+                <div class="menu">
+                    <ul class="flex gap-x-[32px]">
+                        <li><a href="#" class="text-[#ffffff] hover:text-[#DCCA87] font-normal text-base leading-[175%]">Home</a></li>
+                        <li class="group"><a href="#" class="text-[#ffffff] hover:text-[#DCCA87] font-normal text-base leading-[175%]">Pages <i class="ml-[5px] mr-[0px] text-[13px] fa-solid fa-chevron-down"></i></a>
+                            <div class="dropdown transition-all duration-[.1s] group-hover:visible invisible absolute top-full ease-linear border-[1px] border-[#DCCA87] border-solid bg-[#0C0C0C] left-1/2 -translate-x-1/2 w-[100%] shadow-[22px 30px 95px 1px rgba(0, 0, 0, 0.7)] flex flex-wrap justify-between p-5 py-10 h-[500px]">
+                                <div class="">
+                                    <h3 class="text-md uppercase my-1 text-[#DCCA87] font-normal leading-[130%] font-Cormorant text-[20px]">Home pages :</h3>
+                                    <ul class="text-white">
+                                        <li><a href="index.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Restaurant Home</a></li>
+                                        <li><a href="bar.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Bar Home</a></li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-md uppercase my-1 text-[#DCCA87] font-normal leading-[130%] font-Cormorant text-[20px]">About us / Contact us / Services :</h3>
+                                    <ul class="text-white">
+                                        <li><a href="contact.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Contact Us</a></li>
+                                        <li><a href="about.html" class="text-base font-Cormorant hover:text-[#DCCA87]">About Us</a></li>
+                                        <li><a href="secvice.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Our Services</a></li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-md uppercase my-1 text-[#DCCA87] font-normal leading-[130%] font-Cormorant text-[20px]">Team :</h3>
+                                    <ul class="text-white">
+                                        <li><a href="chefdetails.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Chef Detail</a></li>
+                                        <li><a href="chefteam.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Our Chefs (Team)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-md uppercase my-1 text-[#DCCA87] font-normal leading-[130%] font-Cormorant text-[20px]">Blog/Blog Detail page :</h3>
+                                    <ul class="text-white">
+                                        <li><a href="blogdetail.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Blogs Detail</a></li>
+                                        <li><a href="blogsingle.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Blogs- Single column</a></li>
+                                        <li><a href="blogsidebar.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Blogs- With sidebar</a></li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-md uppercase my-1 text-[#DCCA87] font-normal leading-[130%] font-Cormorant text-[20px]">Faq :</h3>
+                                    <ul class="text-white">
+                                        <li><a href="faq.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Faq</a></li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-md uppercase my-1 text-[#DCCA87] font-normal leading-[130%] font-Cormorant text-[20px]">Coming Soon / 404 :</h3>
+                                    <ul class="text-white">
+                                        <li><a href="comming.html" class="text-base font-Cormorant hover:text-[#DCCA87]">Coming Soon</a></li>
+                                        <li><a href="404.html" class="text-base font-Cormorant hover:text-[#DCCA87]">404</a></li>
+                                    </ul>
+                                </div>
+                                <div class="h-72 w-full flex my-5 justify-between">
+                                   <img class="w-[258px] h-[280px]" src="./img/ne4.png" alt="">
+                                   <img class="w-[258px] h-[280px]" src="./img/food.png" alt="">
+                                   <img class="w-[258px] h-[280px]" src="./img/ne3.png" alt="">
+                                   <img class="w-[258px] h-[280px]" src="./img/bannr.jpg" alt="">
+                                   <img class="w-[258px] h-[280px]" src="./img/ne2.png" alt="">
+                                   <img class="w-[258px] h-[280px]" src="./img/ne1.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="contact.html" class="text-[#ffffff] hover:text-[#DCCA87] font-normal text-base leading-[175%]">Contact Us</a></li>
+                        <li><a href="blogsidebar.html" class="text-[#ffffff] hover:text-[#DCCA87] font-normal text-base leading-[175%]">Blog</a></li>
+                        <li><a href="index.html" class="text-[#ffffff] hover:text-[#DCCA87] font-normal text-base leading-[175%]">Landing</a></li>
+                    </ul>
+                </div>
+                <div class="logo flex items-center gap-x-[50px]">
+                    <h3 class="font-semibold text-base leading-[175%] capitalize text-[#ffffff] cursor-pointer hover:text-[#DCCA87]">Log In / Registration</h3>
+                    <img src="./img/Vector 5.png" alt="">
+                    <h3 class="font-semibold text-base leading-[175%] capitalize text-[#ffffff] cursor-pointer hover:text-[#DCCA87]">Book Table</h3>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ==========================================Navbar Section==============================    -->
+    
+
+    <!-- ===============Bannar Section================================================================= -->
+
+    <section class="bannar_part bg-[url('./img/bannnar1.png')] py-[254px] text-center bg-no-repeat bg-cover bg-center relative after:content-[''] after:w-full after:h-full after:top-0 after:left-0 after:absolute after:bg-[rgb(12,12,12,50%)] after:z-[-1] z-[1]">
+       <div class="max-w-[1680px] mx-auto">
+        <h1 class="font-Cormorant mb-[24px] text-[#DCCA87] font-bold text-[5.63rem] leading-[130%] capitalize text-center">What We offer</h1>
+        <div class="text-white flex justify-center gap-x-[10px] items-center">
+            <a href="#" class="font-Cormorant font-bold text-[1.44rem] leading-[130%] capitalize text-[#fff]">Home</a>
+            <a href="#"><i class="fa-solid fa-angle-right text-[#DCCA87] text-[20px]"></i></a>
+            <a href="#" class="font-Cormorant font-bold text-[1.44rem] leading-[130%] capitalize text-[#fff]">Our Services</a>
+        </div>
+       </div>
+    </section>
+
+    <!-- ===============Bannar Section================================================================= -->
+        
+   <!-- ==========================================Customers Section==============================    -->
+   <section id="customers" class="relative pt-[196px] pb-[152px] bg-[#0C0C0C]">
+    <img class="absolute bottom-[19px] right-[151px]" src="./img/kaci.png" alt="">
+    <div class="max-w-[1680px] mx-auto text-center">
+        <h4 class="font-bold text-[1.44rem]  leading-[130%] capitalize text-center text-[#fff] font-Cormorant">Serving Quality</h4>
+        <img class="my-2 inline-block" src="./img/spone.png" alt="">
+        <h2 class="font-semibold text-[4.00rem] font-Cormorant max-w-[1128px] mx-auto leading-[130%] capitalize text-center text-[#DCCA87]">We at Gericth are serving our customers for over a decade.</h2>
+        <p class="my-10 max-w-[868px] mx-auto font-normal text-base leading-[175%] text-center text-[#AAAAAA] font-Open-Sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
+        <div class="flex gap-x-10 justify-center">
+            <a href="#" class="py-2 px-8 font-semibold  font-Cormorant text-base leading-[175%] bg-[#DCCA87] text-[#0C0B08]">Read More</a>
+            <a href="#" class="py-2 px-8 font-semibold  font-Cormorant text-base leading-[175%] text-[#fff] border-[1px] border-solid border-[#DCCA87]">Contact Us</a>
+        </div>
+    </div>
+   </section>
+   <!-- ==========================================Customers Section==============================    -->
+   
+   <!-- ==========================================Bar Section==============================    -->
+   <section id="bar" class="py-[262px] bg-[url('./img/menu.jpg')] bg-cover bg-no-repeat bg-center relative z-[99999]
+   ">
+       <div class="max-w-[1680px] mx-auto text-[#fff]">
+           <h3 class="font-Cormorant text-[4.00rem] font-semibold leading-[130%] capitalize text-[#fff] underline
+           ">Bar Menu</h3>
+           <h3 class="font-Cormorant text-[4.00rem] font-semibold  leading-[130%] capitalize text-[#fff]
+           ">Food Menu</h3>
+           <h3 class="font-Cormoranttext-[4.00rem]  font-semibold text-[4.00rem] leading-[130%] capitalize text-[#fff]
+           ">Desserts Menu</h3>
+       </div>
+   </section>
+   <!-- ==========================================Bar Section==============================    -->
+   
+     <!-- ==========================================Book Section==============================    -->
+     <section class="book pt-[152px] pb-[184px] bg-[#0C0B08] relative">
+        <div class="max-w-[1680px] mx-auto relative z-[99999]">
+            <div class="table text-center bg-[#0C0C0C] w-[1364px] mx-auto py-[48px] px-[32px] shadow-[22px 30px 95px 1px rgba(0, 0, 0, 0.7)] bg-[#0C0C0C] text-[#FFF] border-[1px] border-[rgb(220,202,135,20%)]">
+               <div class="text-center">
+                <h4 class="font-bold text-[1.44rem] leading-[130%] capitalize text-[#fff] font-Cormorant
+                ">Reservations</h4>
+                <img class="mt-2 inline-block" src="./img/spone.png" alt="">
+                <h2 class="mt-2 mb-[64px] font-Cormorant font-semibold text-[4.00rem] leading-[130%] capitalize text-center text-[#DCCA87]
+                ">Book A Table</h2>
+               </div>
+                <div class="flex gap-x-8 mb-[64px]">
+                    <div class="bg-[red] p-4 flex gap-x-[298px] font-Open-Sans font-semibold text-base leading-[175%] capitalize text-center text-[#AAAAAA] bg-[transparent] outline outline-1 outline-[#F5EFDB]">
+                        <select name="" id="">
+                            <option value="1">1 Person</option>
+                            <option value="2">2 Person</option>
+                            <option value="3">3 Person</option>
+                        </select>
+                    </div>
+                    <input type="time" class="font-Open-Sans p-4 font-semibold text-base leading-[175%] capitalize text-center text-[#AAAAAA] bg-[transparent] outline outline-1 outline-[#F5EFDB]
+                    " value="12:30"/>
+                    <input type="date" class="font-Open-Sans p-4 font-semibold text-base leading-[175%] capitalize text-center text-[#AAAAAA] bg-[transparent] outline outline-1 outline-[#F5EFDB]
+                    " value="2021-05-12"/>
+                </div>
+                <a href="#" class="py-[8px] px-[32px] bg-[#DCCA87] font-bold text-base leading-[175%] text-[#0C0C0C] font-Cormorant">Book Now</a>
+            </div>
+        </div>
+        <img class="absolute left-[146px] bottom-[85px] inline-block h-[146px] z-[9999999]" src="./img/kaci.png" alt="">
+    </section>
+    <!-- ==========================================Book Section==============================    -->
+    
+  
+  <!-- ==========================================Bar Section==============================    -->
+  <section id="bar" class="relative z-[9999] text-center py-[330px] bg-[url('./img/bar.png')] bg-no-repeat bg-cover bg-center">
+    <h2 class="mb-8 font-semibold text-9xl leading-[130%] capitalize text-[#DCCA87] font-Cormorant">Happy Hours</h2>
+    <p class="font-bold text-4xl leading-[130%] capitalize text-[#fff] font-Cormorant">Monday - Friday (4:00 Pm - 7:00 pm)</p>
+  </section>
+  <!-- ==========================================Bar Section==============================    -->
+  
+  <!-- ==========================================Subscribe Section==============================    -->
+  <section id="subscribe" class="py-[113px] bg-[#0C0C0C] relative">
+    <div class="flex flex-col items-center absolute top-[507px] right-[120px] z-[999999999]">
+        <img src="./img/line.png" alt="">
+        <h4 class="font-Cormorant font-bold text-base leading-[175%] uppercase text-[#DCCA87]">TOP</h4>
+    </div>
+    <div class="max-w-[1300px] mx-auto bg-[#0C0C0C] relative z-[9999999999]">
+        <div class="news py-[64px] text-center border-[1px] border-solid border-[#dcca8733]">
+            <h4 class="font-bold text-[1.44rem] font-Cormorant leading-[130%] capitalize text-[#fff]">Newsletter</h4>
+            <img class="inline-block my-2" src="./img/spone.png" alt="">
+            <h2 class="font-semibold text-[4.00rem] font-Cormorant leading-[130%] capitalize text-center text-[#DCCA87]">Subscribe to Our Newsletter</h2>
+            <p class="font-normal text-base leading-[175%] text-center text-[#fff] mt-[24px] mb-[64px]">And never miss latest Updates!</p>
+            <div class="flex justify-center items-center gap-x-8">
+                <input class="font-Cormorant font-semibold text-base leading-[175%] capitalize  text-[#AAAAAA] bg-transparent mailinput border-[1px] px-[18px] w-[635px] border-[#F5EFDB] border-solid inline-block py-4" type="text" name="" id="" placeholder="Email Address">
+                <a href="#" class="font-Cormorant py-2 px-8 font-bold text-base leading-[175%] text-[#0C0C0C] bg-[#DCCA87]">Subscribe</a>
+            </div>
+        </div>
+    </div>
+    <!-- ==========================================Footer Section==============================    -->
+    <footer id="footer" class="pt-[349px] pb-[128px] bg-[url('./img/footerbg.png')] bg-center bg-no-repeat absolute w-full top-[334px] z-[9999999]">
+        <div class="max-w-[1300px] mx-auto flex justify-between items-start relative z-[9999]">
+            <div class="text-center text-[#FFF] mt-[25px]">
+                <h3 class="font-Cormorant font-normal text-4xl leading-[130%] capitalize text-[#F5EFDB]">Contact Us</h3>
+                <p class="mt-[24px] mb-2 font-Open-Sans font-normal text-base leading-[175%] text-[#AAAAAA]">9 W 53rd St, New York, NY 10019, USA</p>
+                <h4 class="font-Open-Sans font-normal text-base leading-[175%] text-[#AAAAAA]">+1 212-344-1230 <br>
+                    +1 212-344-1230
+                </h4>
+            </div>
+            <div class="text-center text-[#FFF]">
+                <h2 class="font-Cormorant font-bold text-[4.00rem] leading-[130%] uppercase text-center text-[#DCCA87]">Gerícht</h2>
+                <p class="mt-8 mb-4 max-w-[438px] mx-auto font-normal text-base leading-[175%] text-center text-[#fff] font-Open-Sans">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                <img class="inline-block" src="./img/spone.png" alt="">
+                <div class="icons flex gap-x-4 mt-4 mb-[64px] justify-center">
+                    <img src="./img/fab2.png" alt="">
+                    <img src="./img/twi2.png" alt="">
+                    <img src="./img/ins2.png" alt="">
+                </div>
+                <p class="font-normal text-base font-Open-Sans leading-[175%] text-center text-[#AAAAAA]">2021 Gerícht. All Rights reserved.</p>
+            </div>
+            <div class="text-center  text-[#FFF] mt-[25px]">
+                <h3 class="font-normal text-4xl leading-[130%] font-Cormorant  capitalize text-[#DCCA87]">Working Hours</h3>
+                <h4 class="mt-[24px] mb-[8px] font-normal text-base leading-[175%] text-center text-[#font-normal text-base leading-[175%] text-center text-[#AAAAAA]">Monday-Friday: <br>
+                    08:00 am -12:00 am
+                </h4>
+                <h4 class="font-normal text-base leading-[175%] text-center text-[#AAAAAA]">Saturday-Sunday: <br>
+                    07:00am -11:00 pm
+                </h4>
+            </div>
+        </div>
+    </footer>
+</section>
+<!-- ==========================================Footer Section==============================    -->
+
+<!-- ==========================================Subscribe Section==============================    -->
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+input{
+    outline: none;
+}
+input::-webkit-calendar-picker-indicator {
+    margin-left: 289px;
+    cursor: pointer;
+    background: url(../img/u_angle-left-b\ \(1\).png);
+}
+select {
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background: transparent;
+    background-image: url("../img/u_angle-left-b (1).png");
+    background-repeat: no-repeat;
+    background-position: left 372px top 50%;
+    width:412px;
+    outline:none;
+    cursor:pointer;
+}
+.mailinput{
+    color: #fff;
+}
+.ovelayas::before{
+    background: linear-gradient(230deg, rgba(0, 0, 0, 0.75) 8.77%, rgba(0, 0, 0, 0.64) 79.13%) !important;
+}
+body{
+    background: #0C0C0C;
+}
+.mymap{
+    filter: grayscale(100) invert(85%);
+}
